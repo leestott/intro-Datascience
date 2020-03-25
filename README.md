@@ -1,4 +1,4 @@
-# Data Science 2: Introduction to Machine Learning for Data Science
+# Data Science: Introduction to Machine Learning for Data Science Python and Machine Learning Studio
 
 ## Engagement Expectations
 This workshop is meant to be highly interactive. The instructor will lead you in two interactive teaching styles:

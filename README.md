@@ -12,7 +12,7 @@ This workshop is meant to be highly interactive. The instructor will lead you in
 
 ## Today's Schedule
 
-| Hour | T| opic |
+| Hour | | Topic |
 | ---- |-| ----- | 
 | 9:30 - 10:00am | | Introduction to Data Science Keynote |
 | 10:00 - 11:00pm | | Introduction and Refresher [Python](Course%20Material/1-Python-Reference.ipynb)

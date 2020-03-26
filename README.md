@@ -96,7 +96,7 @@ After the container is built, VS Code automatically connects to it and maps the 
 
 Tip: Want to use a remote Docker host? See the Advanced Containers article for details on setup
 
-## Running the container in Visual Studio Online (Browser Experience)
+# Running the container in Visual Studio Online (Browser Experience)
 
 install this in Visual Studio Online <a href='https://visualstudio.microsoft.com/services/visual-studio-online/' target ='blank'>https://visualstudio.microsoft.com/services/visual-studio-online/ you'll need the following:
 

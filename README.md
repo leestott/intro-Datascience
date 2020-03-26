@@ -11,6 +11,7 @@ This workshop is meant to be highly interactive. The instructor will lead you in
 *Notice*: Various interactive cues are called out in the Notebooks. These are suggestions and at the instructor's discression.
 
 ## Today's Schedule
+
 | Hour | T| opic |
 | ---- |-| ----- | 
 | 9:30 - 10:00am | | Introduction to Data Science Keynote |
@@ -20,7 +21,7 @@ This workshop is meant to be highly interactive. The instructor will lead you in
 | 12:30 - 1:30pm | | Introduction to [Data cleaning and manipulation](4-Cleaning_and_Manipulating-Reference.ipynb)| 
 | 1:30 - 2:30pm | | [Introduction to Machine Learning Models and Linear Regression](Course%20Material/5-MachineLearningModels-Reference.ipynbb) |
 | 2:00 - 2:10pm | | Break |
-| 2:30 - 3:45pm | | [Using the Cloud for Machine Learning with Azure ML Studio](Course%20Material/6-AzureMLStudio-Reference.ipynb) | 
+| 2:30 - 3:45pm | | [Using the Cloud for Machine Learning with Azure ML Studio](Course%20Material/6-AzureMLStudio-Reference.ipynb) |
 | 3:45 - 4pm | | Wrap Up |
 
 # Using Visual Studio Code 

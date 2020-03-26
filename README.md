@@ -1,9 +1,12 @@
 # Data Science: Introduction to Machine Learning for Data Science Python and Machine Learning Studio
 
 ## Engagement Expectations
+
 This workshop is meant to be highly interactive. The instructor will lead you in two interactive teaching styles:
+
 1. **Interactive Lecturing:** The majority of content for this workshop is in a Notebook. Though the content will be introduced via PowerPoint, the rest of the workshop will consist of walking them through the Azure Notebooks. During this time, instructors will employ an interactive lecture style, where learners will be asked to participate by asking questions and offering up ideas.
-2. **Think, Pair, Share:** For some of the more complex topics, the instructor will use the "Think, Pair, Share" method. This is where you will be asked a question and given about 45 seconds to think quietly to yourself. During this time it is imperative that you are not discussing with others yet. Then, you will have an opportunity to disucss with the 1-2 people next to you. Make sure you don't just share your answer, but *why* you think that is the answer. Finally, the isntructor will ask for a few people to share what they discussed with their neighbors. 
+
+2. **Think, Pair, Share:** For some of the more complex topics, the instructor will use the "Think, Pair, Share" method. This is where you will be asked a question and given about 45 seconds to think quietly to yourself. During this time it is imperative that you are not discussing with others yet. Then, you will have an opportunity to disucss with the 1-2 people next to you. Make sure you don't just share your answer, but *why* you think that is the answer. Finally, the isntructor will ask for a few people to share what they discussed with their neighbors.
 
 *Notice*: Various interactive cues are called out in the Notebooks. These are suggestions and at the instructor's discression.
 
@@ -20,6 +23,54 @@ This workshop is meant to be highly interactive. The instructor will lead you in
 | 2:30 - 3:45pm | | [Using the Cloud for Machine Learning with Azure ML Studio](Course%20Material/6-AzureMLStudio-Reference.ipynb) | 
 | 3:45 - 4pm | | Wrap Up |
 
+# Using Visual Studio Code 
+
+This repository contains a Visual Studio Code container build.
+
+## Before You Start
+
+The Visual Studio Code Remote - Containers extension lets you use a Docker container as a full-featured development environment. It allows you to open any folder inside (or mounted into) a container and take advantage of Visual Studio Code's full feature set. A .devcontainer folder in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack. This container can be used to run an application or to sandbox tools, libraries, or runtimes needed for working with a codebase.
+
+Workspace files are mounted from the local file system or copied or cloned into the container. Extensions are installed and run inside the container, where they have full access to the tools, platform, and file system. This means that you can seamlessly switch your entire development environment just by connecting to a different container.
+
+## Running the container within VSCode on Windows, Mac or Linux
+
+You can run this container from VSCode locally see <a href ='https://code.visualstudio.com/docs/remote/containers' target='_blank'>https://code.visualstudio.com/docs/remote/containers</a>.
+
+## The following Requirements are installed as part of the container build
+
+- jupyter
+- numpy
+- pandas
+- scipy
+- folium==0.2.1
+- matplotlib
+- ipywidgets>=7.0.0
+- bqplot
+- nbinteract==0.0.12
+
+
+## Runing the container in Visual Studio Online (Browser Experience)
+
+install this in Visual Studio Online <a href='https://visualstudio.microsoft.com/services/visual-studio-online/' target ='blank'>https://visualstudio.microsoft.com/services/visual-studio-online/ you'll need the following:
+
+- A Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at <a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a> or a Student Subscription at <a href ='https://aks.ms/azureforstudents' target='_blank'>https://aka.ms/azureforstudents</a>.
+- A Visual Studio Online environment. This provides a hosted instance of Visual Studio Code, in which you'll be able to run the notebooks for the lab exercises. To set up this environment:
+    1. Browse to <a href ='https://online.visualstudio.com' target='_blank'>https://online.visualstudio.com</a>
+    2. Click **Get Started**.
+    3. Sign in using the Microsoft account associated with your Azure subscription.
+    4. Click **Create environment**. If you don't already have a Visual Studio Online plan, create one. This is used to track resource utlization by your Visual Studio Online environments. Then create an environment with the following settings:
+        - **Environment Name**: *A name for your environment - for example, **MSLearn-Datascience**.*
+        - **Git Repository**: leestott/python3-BerkeleyDatascience
+        - **Instance Type**: Standard (Linux) 4 cores, 8GB RAM
+        - **Suspend idle environment after**: 120 minutes
+    5. Wait for the environment to be created, and then click **Connect** to connect to it. This will open a browser-based instance of Visual Studio Code.
+    6. Wait for a minute or so while the environment is set up for you. It might look like nothing is happening, but in the background we are installing some extensions that you will use in the labs.
+    7. Copy your notebooks files and data and undertake your learning
+
+> **Tip**: you can change the color scheme back to a dark background if you prefer - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**.
+
+# Using Azure Notebooks 
 
 ## Content
 The primary source of content will be relatively bare Azure Notebooks where the instructor will guide you through discovering the different features of Python, NumPy, Pandas, and general data cleaning and manipulation. 

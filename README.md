@@ -33,10 +33,56 @@ The Visual Studio Code Remote - Containers extension lets you use a Docker conta
 
 Workspace files are mounted from the local file system or copied or cloned into the container. Extensions are installed and run inside the container, where they have full access to the tools, platform, and file system. This means that you can seamlessly switch your entire development environment just by connecting to a different container.
 
-## Running the container within VSCode on Windows, Mac or Linux
+# Running the container within VSCode on Windows, Mac or Linux
 
 You can run this container from VSCode locally see <a href ='https://code.visualstudio.com/docs/remote/containers' target='_blank'>https://code.visualstudio.com/docs/remote/containers</a>.
 
+## Quick Start Installation
+
+To get started, follow these steps:
+
+Install and configure [Docker](https://www.docker.com/get-started) for your operating system.
+
+Windows / macOS:
+
+Install Docker [Desktop for Windows/Mac](https://www.docker.com/products/docker-desktop)
+
+Right-click on the Docker taskbar item and update Settings / Preferences > Shared Drives / File Sharing with any source code locations you want to open in a container. If you run into trouble, see [Docker Desktop for Windows](https://code.visualstudio.com/docs/remote/troubleshooting#_docker-desktop-for-windows-tips) tips on avoiding common problems with sharing.
+
+Linux:
+
+Follow the official [install instructions for Docker](https://docs.docker.com/install/#supported-platforms) CE/EE for your distribution. If you are using Docker Compose, follow the [Docker Compose](https://docs.docker.com/compose/install/) directions as well.
+
+Add your user to the docker group by using a terminal to run: sudo usermod -aG docker $USER
+
+Sign out and back in again so your changes take effect.
+
+Install [Visual Studio Code](https://code.visualstudio.com/)
+
+Install the [Remote Development extension pack](https://aka.ms/vscode-remote/download/extension)
+
+## Loading the Docker container in Visual Studio Code 
+
+Let's start by using a sample project to try things out.
+
+Clone one of the repository
+
+Start VS Code and click on the quick actions Status Bar item in the lower left corner of the window.
+![VScodeStatusBar](https://code.visualstudio.com/assets/docs/remote/common/remote-dev-status-bar.png)
+
+Quick actions Status bar item
+
+Select Remote-Containers: Open Folder in Container... from the command list that appears, and open the root folder of the project you just cloned.
+
+The window will then reload, but since the container does not exist yet, VS Code will create one. This may take some time, and a progress notification will provide status updates. Fortunately, this step isn't necessary the next time you open the folder since the container will already exist.
+
+![ContainerProgress](https://code.visualstudio.com/assets/docs/remote/containers/dev-container-progress.png)
+
+Dev Container Progress Notification
+
+After the container is built, VS Code automatically connects to it and maps the project folder from your local file system into the container. Check out the Things to try section of README.md in the repository you cloned to see what to do next.
+
+Tip: Want to use a remote Docker host? See the Advanced Containers article for details on setup
 ## The following Requirements are installed as part of the container build
 
 - jupyter
@@ -49,8 +95,7 @@ You can run this container from VSCode locally see <a href ='https://code.visual
 - bqplot
 - nbinteract==0.0.12
 
-
-## Runing the container in Visual Studio Online (Browser Experience)
+## Running the container in Visual Studio Online (Browser Experience)
 
 install this in Visual Studio Online <a href='https://visualstudio.microsoft.com/services/visual-studio-online/' target ='blank'>https://visualstudio.microsoft.com/services/visual-studio-online/ you'll need the following:
 
@@ -70,14 +115,15 @@ install this in Visual Studio Online <a href='https://visualstudio.microsoft.com
 
 > **Tip**: you can change the color scheme back to a dark background if you prefer - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**.
 
-# Using Azure Notebooks 
+# Using Azure Notebooks
 
 ## Content
-The primary source of content will be relatively bare Azure Notebooks where the instructor will guide you through discovering the different features of Python, NumPy, Pandas, and general data cleaning and manipulation. 
 
-The folder called "Course Material" has all of the content and exercises, plus written explanations and additional features and exercise not covered in this workshop. 
+The primary source of content will be relatively bare Azure Notebooks where the instructor will guide you through discovering the different features of Python, NumPy, Pandas, and general data cleaning and manipulation.
 
-## Clone the Content 
+The folder called "Course Material" has all of the content and exercises, plus written explanations and additional features and exercise not covered in this workshop.
+
+## Clone the Content
 
 Cloning creates a copy of an existing project in your own account, where you can then run and modify any notebook or other file in the project. You can also use cloning to make copies of your own projects in which you do experiments or other work without disturbing the original project.
 
@@ -92,15 +138,16 @@ In the Clone Project popup, enter a name and ID for the clone, and specify wheth
 After you select the Clone button, Azure Notebooks navigates directly to the copy
 
 ## Tips and Tricks
+
 Azure Notebooks is still in Preview. This means that there are some times when it will fail. Here are some tips for avoiding losing your work:
-- Ensure their work is being saved. In the Jupyter Notebook there is always one of two messages to the right of the title of the notebook: `(autosaved)` or `(unsaved changes)`. Make sure you're noticing that your work is being saved. You should consider checking every 10 minutes or so. 
-- Sometimes Notebooks get into a state where the Kernel cannot be started. Sometimes re-starting the kernel will work. But often you will have to somepletely sign out of Azure Notebooks and then sign back in. 
+- Ensure their work is being saved. In the Jupyter Notebook there is always one of two messages to the right of the title of the notebook: `(autosaved)` or `(unsaved changes)`. Make sure you're noticing that your work is being saved. You should consider checking every 10 minutes or so.
+- Sometimes Notebooks get into a state where the Kernel cannot be started. Sometimes re-starting the kernel will work. But often you will have to somepletely sign out of Azure Notebooks and then sign back in.
 
 ## New to Python, Pandas, NumPy or Data Cleaning and Manipulation?
 
 Additionally, if you need a referesher on how to code in Python or work with NumPy or Pandas, we recommend you check out the materials from our other Reactor Workshop:
 
-#### Introduction and Refresher 
+#### Introduction and Refresher
 
 [Python](Course%20Material/1-Python-Reference.ipynb)
 
@@ -110,7 +157,7 @@ Additionally, if you need a referesher on how to code in Python or work with Num
 
 [Data cleaning and manipulation](4-Cleaning_and_Manipulating-Reference.ipynb)
 
-## Additional Learning Resources 
+## Additional Learning Resources
 
 Microsoft Learn Interactive Labs
 

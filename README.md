@@ -139,7 +139,7 @@ install this in Visual Studio Online <a href='https://visualstudio.microsoft.com
 
 > **Tip**: you can change the color scheme back to a dark background if you prefer - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**.
 
-# Using Azure Notebooks
+# Using Azure Notebooks http://notebooks.azure.com
 
 ## Content
 

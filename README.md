@@ -15,18 +15,22 @@ This workshop is meant to be highly interactive. The instructor will lead you in
 | Hour | | Topic |
 | ---- |-| ----- | 
 | 9:30 - 10:00am | | Introduction to Data Science Keynote |
-| 10:00 - 11:00pm | | Introduction and Refresher [Python](Course%20Material/1-Python-Reference.ipynb)
-| 12:00 - 1:00pm | | Introduction to [NumPy](Course%20Material/2-NumPy-Reference.ipynb) & [Pandas](Course%20Material/3-Pandas-Reference.ipynb) |
+| 10:00 - 11:00pm | | Introduction and Refresher [Python](Course%20Materials/1-Python-Reference.ipynb)
+| 12:00 - 1:00pm | | Introduction to [NumPy](Course%20Materials/2-NumPy-Reference.ipynb) & [Pandas](Course%20Materials/3-Pandas-Reference.ipynb) |
 | 12:00 - 12:30pm | | Lunch | 
-| 12:30 - 1:30pm | | Introduction to [Data cleaning and manipulation](4-Cleaning_and_Manipulating-Reference.ipynb)| 
-| 1:30 - 2:30pm | | [Introduction to Machine Learning Models and Linear Regression](Course%20Material/5-MachineLearningModels-Reference.ipynbb) |
+| 12:30 - 1:30pm | | Introduction to [Data cleaning and manipulation](Course%20Materials/4-Cleaning_and_Manipulating-Reference.ipynb)| 
+| 1:30 - 2:30pm | | [Introduction to Machine Learning Models and Linear Regression](Course%20Materials/5-MachineLearningModels-Reference.ipynbb) |
 | 2:00 - 2:10pm | | Break |
-| 2:30 - 3:45pm | | [Using the Cloud for Machine Learning with Azure ML Studio](Course%20Material/6-AzureMLStudio-Reference.ipynb) |
+| 2:30 - 3:45pm | | [Using the Cloud for Machine Learning with Azure ML Studio](Course%20Materials/6-AzureMLStudio-Reference.ipynb) |
 | 3:45 - 4pm | | Wrap Up |
 
 # Using Visual Studio Code 
 
 This repository contains a Visual Studio Code container build.
+
+## One Button Click Deploy of Visual Studio Online Environment
+
+[![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=intro-DataScience&repo=leestott/intro-Datascience)
 
 ## Before You Start
 
@@ -98,6 +102,12 @@ After the container is built, VS Code automatically connects to it and maps the 
 Tip: Want to use a remote Docker host? See the Advanced Containers article for details on setup
 
 # Running the container in Visual Studio Online (Browser Experience)
+
+## One Button Click Deploy
+
+[![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=intro-DataScience&repo=leestott/intro-Datascience)
+
+## Manual Installation
 
 install this in Visual Studio Online <a href='https://visualstudio.microsoft.com/services/visual-studio-online/' target ='blank'>https://visualstudio.microsoft.com/services/visual-studio-online/ you'll need the following:
 

@@ -117,8 +117,6 @@ We also have the domain env.new which allows you to replace online.visualstudio.
 
 https://env.new?name=intro-DataScience&repo=leestott/intro-Datascience
 
-https://online.visualstudio.com/environments/new?name=MSLearn-DataScience&repo=MSlearnBerkeley/Content
-
 You could also load this in a new window using target="_blank" so as an example so <a href="https://new.env?name=..." target="_blank">{your image}</a>
 
 ## Manual Installation

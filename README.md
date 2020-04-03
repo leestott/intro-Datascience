@@ -32,6 +32,8 @@ This repository contains a Visual Studio Code container build.
 
 [![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=intro-DataScience&repo=leestott/intro-Datascience)
 
+The setup of the one button click deployment is explained in more details below. 
+
 ## Before You Start
 
 The Visual Studio Code Remote - Containers extension lets you use a Docker container as a full-featured development environment. It allows you to open any folder inside (or mounted into) a container and take advantage of Visual Studio Code's full feature set. A .devcontainer folder in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack. This container can be used to run an application or to sandbox tools, libraries, or runtimes needed for working with a codebase.
@@ -107,6 +109,18 @@ Tip: Want to use a remote Docker host? See the Advanced Containers article for d
 
 [![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=intro-DataScience&repo=leestott/intro-Datascience)
 
+The way this works is as follows is simply calling a specific URL which creates your Visual Studio Online Environment
+
+https://online.visualstudio.com/environments/new?name=intro-DataScience&repo=leestott/intro-Datascience
+
+We also have the domain env.new which allows you to replace online.visualstudio.com making the url shorter
+
+https://env.new?name=intro-DataScience&repo=leestott/intro-Datascience
+
+https://online.visualstudio.com/environments/new?name=MSLearn-DataScience&repo=MSlearnBerkeley/Content
+
+You could also load this in a new window using target="_blank" so as an example so <a href="https://new.env?name=..." target="_blank">{your image}</a>
+
 ## Manual Installation
 
 install this in Visual Studio Online <a href='https://visualstudio.microsoft.com/services/visual-studio-online/' target ='blank'>https://visualstudio.microsoft.com/services/visual-studio-online/ you'll need the following:
@@ -161,13 +175,13 @@ Additionally, if you need a referesher on how to code in Python or work with Num
 
 #### Introduction and Refresher
 
-[Python](Course%20Material/1-Python-Reference.ipynb)
+[Python](Course%20Materials/1-Python-Reference.ipynb)
 
-[NumPy](Course%20Material/2-NumPy-Reference.ipynb)
+[NumPy](Course%20Materials/2-NumPy-Reference.ipynb)
 
-[Pandas](Course%20Material/3-Pandas-Reference.ipynb)
+[Pandas](Course%20Materials/3-Pandas-Reference.ipynb)
 
-[Data cleaning and manipulation](4-Cleaning_and_Manipulating-Reference.ipynb)
+[Data cleaning and manipulation](Course%20Materials/4-Cleaning_and_Manipulating-Reference.ipynb)
 
 ## Additional Learning Resources
 

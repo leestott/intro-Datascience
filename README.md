@@ -54,7 +54,7 @@ Workspace files are mounted from the local file system or copied or cloned into 
 - bqplot
 - nbinteract==0.0.12
 
-You can run this container from VSCode locally see <a href ='https://code.visualstudio.com/docs/remote/containers' target='_blank'>https://code.visualstudio.com/docs/remote/containers</a>.
+You can run this container from VSCode locally see <a href ='https://code.visualstudio.com/docs/remote/containers?WT.mc_id=academic-0000-leestott' target='_blank'>https://code.visualstudio.com/docs/remote/containers?WT.mc_id=academic-0000-leestott</a>.
 
 ## Quick Start Installation
 
@@ -66,7 +66,7 @@ Windows / macOS:
 
 Install Docker [Desktop for Windows/Mac](https://www.docker.com/products/docker-desktop)
 
-Right-click on the Docker taskbar item and update Settings / Preferences > Shared Drives / File Sharing with any source code locations you want to open in a container. If you run into trouble, see [Docker Desktop for Windows](https://code.visualstudio.com/docs/remote/troubleshooting#_docker-desktop-for-windows-tips) tips on avoiding common problems with sharing.
+Right-click on the Docker taskbar item and update Settings / Preferences > Shared Drives / File Sharing with any source code locations you want to open in a container. If you run into trouble, see [Docker Desktop for Windows](https://code.visualstudio.com/docs/remote/troubleshooting?WT.mc_id=academic-0000-leestott#_docker-desktop-for-windows-tips) tips on avoiding common problems with sharing.
 
 Linux:
 
@@ -76,7 +76,7 @@ Add your user to the docker group by using a terminal to run: sudo usermod -aG d
 
 Sign out and back in again so your changes take effect.
 
-Install [Visual Studio Code](https://code.visualstudio.com/)
+Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-leestott)
 
 Install the [Remote Development extension pack](https://aka.ms/vscode-remote/download/extension)
 
@@ -87,7 +87,7 @@ Let's start by using a sample project to try things out.
 Clone one of the repository
 
 Start VS Code and click on the quick actions Status Bar item in the lower left corner of the window.
-![VScodeStatusBar](https://code.visualstudio.com/assets/docs/remote/common/remote-dev-status-bar.png)
+![VScodeStatusBar](https://code.visualstudio.com/assets/docs/remote/common/remote-dev-status-bar.png?WT.mc_id=academic-0000-leestott)
 
 Quick actions Status bar item
 
@@ -95,7 +95,7 @@ Select Remote-Containers: Open Folder in Container... from the command list that
 
 The window will then reload, but since the container does not exist yet, VS Code will create one. This may take some time, and a progress notification will provide status updates. Fortunately, this step isn't necessary the next time you open the folder since the container will already exist.
 
-![ContainerProgress](https://code.visualstudio.com/assets/docs/remote/containers/dev-container-progress.png)
+![ContainerProgress](https://code.visualstudio.com/assets/docs/remote/containers/dev-container-progress.png?WT.mc_id=academic-0000-leestott)
 
 Dev Container Progress Notification
 
@@ -121,11 +121,11 @@ You could also load this in a new window using target="_blank" so as an example 
 
 ## Manual Installation
 
-install this in Visual Studio Online <a href='https://visualstudio.microsoft.com/services/visual-studio-online/' target ='blank'>https://visualstudio.microsoft.com/services/visual-studio-online/ you'll need the following:
+install this in Visual Studio Online <a href='https://visualstudio.microsoft.com/services/visual-studio-online/?WT.mc_id=academic-0000-leestott' target ='blank'>https://visualstudio.microsoft.com/services/visual-studio-online/?WT.mc_id=academic-0000-leestott you'll need the following:
 
-- A Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at <a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a> or a Student Subscription at <a href ='https://aks.ms/azureforstudents' target='_blank'>https://aka.ms/azureforstudents</a>.
+- A Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at <a href ='https://azure.microsoft.com/?WT.mc_id=academic-0000-leestott' target='_blank'>https://azure.microsoft.com/?WT.mc_id=academic-0000-leestott</a> or a Student Subscription at <a href ='https://aks.ms/azureforstudents' target='_blank'>https://aka.ms/azureforstudents</a>.
 - A Visual Studio Online environment. This provides a hosted instance of Visual Studio Code, in which you'll be able to run the notebooks for the lab exercises. To set up this environment:
-    1. Browse to <a href ='https://online.visualstudio.com' target='_blank'>https://online.visualstudio.com</a>
+    1. Browse to <a href ='https://online.visualstudio.com/?WT.mc_id=academic-0000-leestott' target='_blank'>https://online.visualstudio.com/?WT.mc_id=academic-0000-leestott</a>
     2. Click **Get Started**.
     3. Sign in using the Microsoft account associated with your Azure subscription.
     4. Click **Create environment**. If you don't already have a Visual Studio Online plan, create one. This is used to track resource utlization by your Visual Studio Online environments. Then create an environment with the following settings:
@@ -139,7 +139,7 @@ install this in Visual Studio Online <a href='https://visualstudio.microsoft.com
 
 > **Tip**: you can change the color scheme back to a dark background if you prefer - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**.
 
-# Using Azure Notebooks http://notebooks.azure.com
+# Using Azure Notebooks https://notebooks.azure.com/?WT.mc_id=academic-0000-leestott
 
 ## Content
 
@@ -185,12 +185,12 @@ Additionally, if you need a referesher on how to code in Python or work with Num
 
 Microsoft Learn Interactive Labs
 
-[Intro to ML](https://docs.microsoft.com/en-us/learn/paths/intro-to-ml-with-python)
+[Intro to ML](https://docs.microsoft.com/learn/paths/intro-to-ml-with-python?WT.mc_id=academic-0000-leestott)
 
-[Building an AI Solution with ML Services](https://docs.microsoft.com/en-us/learn/paths/build-ai-solutions-with-azure-ml-service/)
+[Building an AI Solution with ML Services](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-0000-leestott)
 
-[Getting Started with Azure DSVM](https://docs.microsoft.com/en-us/learn/paths/get-started-with-azure-dsvm/)
+[Getting Started with Azure DSVM](https://docs.microsoft.com/learn/paths/get-started-with-azure-dsvm/?WT.mc_id=academic-0000-leestott)
 
-[DataScience Tools in Azure](https://docs.microsoft.com/en-us/learn/paths/explore-data-science-tools-in-azure/)
+[DataScience Tools in Azure](https://docs.microsoft.com/learn/paths/explore-data-science-tools-in-azure/?WT.mc_id=academic-0000-leestott)
 
-[Azure Fundamentals](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
+[Azure Fundamentals](https://docs.microsoft.com/learn/paths/azure-fundamentals/?WT.mc_id=academic-0000-leestott)
